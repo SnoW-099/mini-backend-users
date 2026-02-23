@@ -1,14 +1,19 @@
-# 👤 mini-backend-users
+# py-mini-systems
 
-Mini backend de consola para registrar e iniciar sesión de usuarios con almacenamiento en JSON.
+Mini backend systems built with Python.
 
-## Uso
+## Projects
+
+### mini-store
+Inventory management system for a store — add, search, delete products and apply discounts.
 
 ```bash
-python Main.py
+cd mini-store && python inventario.py
 ```
 
-## Funciones
-- **Registro** — Crear nuevos usuarios con contraseña
-- **Login** — Iniciar sesión verificando credenciales
-- **Persistencia** — Datos guardados automáticamente en `users.json`
+### mini-users
+User registration and login system with JSON storage.
+
+```bash
+cd mini-users && python main.py
+```
